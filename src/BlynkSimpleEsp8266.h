@@ -95,9 +95,10 @@ public:
 
 };
 
-static WiFiClient _blynkWifiClient;
-static BlynkArduinoClient _blynkTransport(_blynkWifiClient);
-BlynkWifi Blynk(_blynkTransport);
+// static WiFiClient _blynkWifiClient;
+// static BlynkArduinoClient _blynkTransport(_blynkWifiClient);
+// BlynkWifi Blynk(_blynkTransport);
+extern BlynkWifi Blynk;
 
 #include <BlynkWidgets.h>
 
